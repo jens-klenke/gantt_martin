@@ -1,0 +1,22 @@
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(dplyr,
+               readr,
+               ggplot2,
+               stringr,
+               here,
+               purrr,
+               dplyr,
+               tidyr,
+               kableExtra,
+               gridExtra,
+               cowplot,
+               tibble,
+               pryr,
+               coronavirus,
+               deSolve,
+               lubridate,
+               eurostat,
+               magrittr,
+               tikzDevice,
+               forcats)
+
